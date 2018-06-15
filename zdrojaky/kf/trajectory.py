@@ -8,7 +8,7 @@ class trajectory():
         self.seed = seed
         self.q = 2.
         self.dt = .1
-        self.r = .5
+        self.r = .2
         self.A = np.array([[1, 0, self.dt, 0],
                            [0, 1, 0, self.dt],
                            [0, 0, 1,  0],
